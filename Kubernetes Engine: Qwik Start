@@ -1,4 +1,4 @@
-
+export ZONE=
 
 gcloud container clusters create --machine-type=e2-medium --zone=$ZONE lab-cluster
 gcloud container clusters get-credentials lab-cluster
